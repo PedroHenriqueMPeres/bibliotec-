@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -30,7 +29,6 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border:;
 }
 
 nav a{
@@ -38,12 +36,13 @@ nav a{
     text-decoration: none;
 }
 
-nav a:hover {
+footer a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 .layout-grid{
     margin:0 auto;
-    border:  ;
     max-width: 992px;
     width: 100%;
 }
@@ -54,18 +53,41 @@ nav a:hover {
     justify-content: space-between;
 }
 
-h1 {
+.footer-flex {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    text-align: center;
-    border-bottom: 2px solid ;
-    border-width: 5px;
-    margin-bottom: 70px;
-    margin-top: 20px;
-    width: 100%;
-    padding-bottom: 20px;
-    font-family: "Montserrat", system-ui,
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 100px;
 }
+
+h1 {
+    width: 100%;
+    
+    margin-bottom: 10px; /* Adjust margin as needed */
+    margin-top: 20px;
+    font-family: "Montserrat", system-ui;
+}
+.titulo{
+    width: 100%;
+}
+
+.hrmenor{
+    border:  3px solid aqua;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.hrmaior{
+    border:  3px solid aqua;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
 
 section{
     display: flex;
@@ -75,10 +97,11 @@ section{
 }
 main{
     width: 100%;
-    height: 100px;
+    height: 950px;
 }
 
-main article{
+.bibliotec-flex article{
+    margin-top: 80px;
     height: 300px;
     width: 250px;
     box-sizing: border-box;
@@ -99,6 +122,7 @@ main article{
     justify-content: space-between;
     border-top: -90;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .borda {
@@ -120,9 +144,125 @@ article div.borda{
 }
 
 .titulo{
-    align-items: center;
+   /* align-items: center;*/
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.livroLayoutGrid{
+    
+        margin:0 auto;
+        max-width: 992px;
+        width: 100%;
+}
+
+h3 {
+
+    margin-top: 130px;
+    margin-bottom:80px ;
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", system-ui;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.recomendados-flex{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+     
+.recomendados-flex .favoritos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.favoritos img {
+    
+    width: 190px;
+    height: 300px;
+    display: flex;
+    margin-top: 10px;
+   
+}
+
+footer{
+    background-color: #26333D;
+    height: 400px;
     width: 100%;
 }
 
+.conteudo{
+        height: 70%;
+        width: 170px;
+        margin-right: 50px;
+}
+
+.logo-footer {
+    border: 2px;
+    height: 240px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-footer {
+    width: 450px;
+    height: 240px;
+    border: 3px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer img{
+    height:50px ;
+    width: 200px;
+    
+    flex-direction: column ;
+}
+
+.conteudoS{
+        height: 70%;
+        width: 170px;
+}
+
+.navSiga{
+    margin-left:11px;
+    display: flex;
+    justify-content: space-between;
+}
+.navIMG img {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+footer h1{
+    color: aqua;
+    font-size: 15px;
+}
+
+footer hr {
+    border: 2px solid rgb(57, 57, 57);
+    margin-top: 44px;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: white;
+}
+ footer p {
+    color: white;
+}
