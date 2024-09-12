@@ -1,0 +1,54 @@
+.livro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: 3px solid aqua;
+    background-color: white;
+}
+
+.check-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: 3px solid aqua;
+    background-color: white;
+}
+
+.heart-corazon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: 3px solid aqua;
+    background-color: white;
+}
+
+section article img{
+    border: 2px solid #48DAD0;
+    border-radius: 50%;
+    margin-top: -120px ;
+}
+
+article img{
+    width: 60px;
+    height: 60px;
+    margin-top: 12px;
+}
+
+.borda{
+    margin-top: -85px;
+    border-radius: 37px;
+    width: 90px;
+    height: 90px;
+}
