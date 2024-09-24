@@ -12,13 +12,18 @@
     <header>
 
         <div class="layout-grid header-flex">
-            <img src="./imagem/logo-desktop.svg" alt="Livro aberto com o texto Bibliotec ao seu lado">
-            <nav>
+            <div class="imagemlogo">
+            <img src="./imagem/logo-desktop.svg" alt="Livro aberto com o texto Bibliotec ao seu lado"></div>
+            <nav id="menu" class="menu">
                 <a href="">Quem Somos</a>
                 <a href="">Acervo</a>
                 <a href="">Login</a>
             </nav>
+        <img src="./imagem/menu-hamburger.png" alt="Hamburguerzinho">
+    
         </div>
+
+        
     </header>
 
     <main>
@@ -160,7 +165,10 @@
         </section>
     </footer>
 
-
+<script>function mostrarMenu(){
+    document.getElementById("menu").classList.toggle("mostrar-menu");
+}
+</script>
 </body>
 
 </html>
